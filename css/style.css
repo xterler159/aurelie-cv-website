@@ -1,5 +1,35 @@
+header {
+  padding-top: 20px;
+}
+header .headlines-container h2 {
+  color: #cf007c;
+}
+header ul li {
+  list-style: none;
+}
+header ul li:not(:first-of-type) {
+  margin-top: 10px;
+}
+header ul li a {
+  font-family: "Lato", sans-serif;
+  margin-left: 5px;
+}
+header .row {
+  align-items: center;
+}
+header p {
+  color: #787777;
+  text-align: center;
+  font-weight: 400;
+}
+
 body {
-  display: none;
+  font-family: "Lato", sans-serif;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }
 
 /*# sourceMappingURL=style.css.map */
