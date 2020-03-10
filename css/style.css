@@ -6,6 +6,9 @@ header .headlines-container h2 {
 }
 header ul li {
   list-style: none;
+  color: #787777;
+  display: flex;
+  align-items: center;
 }
 header ul li:not(:first-of-type) {
   margin-top: 10px;
@@ -13,6 +16,8 @@ header ul li:not(:first-of-type) {
 header ul li a {
   font-family: "Lato", sans-serif;
   margin-left: 5px;
+  color: #787777;
+  display: inline-block;
 }
 header .row {
   align-items: center;
@@ -21,6 +26,12 @@ header p {
   color: #787777;
   text-align: center;
   font-weight: 400;
+}
+
+.body-block h2 {
+  border-bottom: 1px solid;
+  font-size: 1.2rem;
+  color: #403f3f;
 }
 
 body {
