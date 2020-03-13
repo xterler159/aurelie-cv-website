@@ -4,4 +4,20 @@
     font-size: 1.2rem;
     color: #403f3f;
   }
+
+  .pink {
+    color: #cf007c;
+  }
+
+  .lvl-container {
+    border: 1px solid;
+    width: 100% !important;
+  }
+
+  .lvl-container .lvl {
+    border: 1px solid crimson;
+    border-radius: 200%;
+    width: 20px;
+    height: 20px;
+  }
 }

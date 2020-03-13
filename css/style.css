@@ -33,6 +33,19 @@ header p {
   font-size: 1.2rem;
   color: #403f3f;
 }
+.body-block .pink {
+  color: #cf007c;
+}
+.body-block .lvl-container {
+  border: 1px solid;
+  width: 100% !important;
+}
+.body-block .lvl-container .lvl {
+  border: 1px solid crimson;
+  border-radius: 200%;
+  width: 20px;
+  height: 20px;
+}
 
 body {
   font-family: "Lato", sans-serif;
