@@ -1,4 +1,5 @@
 header {
+  position: relative;
   padding-top: 20px;
 }
 header .headlines-container h2 {
@@ -26,6 +27,14 @@ header p {
   color: #787777;
   text-align: center;
   font-weight: 400;
+}
+header .languages-container {
+  position: absolute;
+  top: 10px;
+  right: 50px;
+}
+header .languages-container img {
+  max-width: 30px;
 }
 
 .body-block h2 {

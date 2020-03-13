@@ -1,5 +1,6 @@
 header {
   //border: 2px solid crimson;
+  position: relative;
   padding-top: 20px;
 
   .headlines-container h2 {
@@ -34,5 +35,15 @@ header {
     color: #787777;
     text-align: center;
     font-weight: 400;
+  }
+
+  .languages-container {
+    position: absolute;
+    top: 10px;
+    right: 50px;
+  }
+
+  .languages-container img {
+    max-width: 30px;
   }
 }
