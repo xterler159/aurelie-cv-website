@@ -10,14 +10,30 @@
   }
 
   .lvl-container {
-    border: 1px solid;
+    //border: 1px solid;
     width: 100% !important;
+    display: flex;
+    justify-content: space-between;
   }
 
   .lvl-container .lvl {
     border: 1px solid crimson;
-    border-radius: 200%;
-    width: 20px;
-    height: 20px;
+    border-radius: 100%;
+    width: 16px;
+    height: 16px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .lvl-container .lvl .fill-lvl {
+    background-color: #cf007c;
+    width: 10px;
+    height: 10px;
+    border-radius: 100%;
+  }
+
+  .skill-headline {
+    margin-bottom: 5px;
   }
 }
